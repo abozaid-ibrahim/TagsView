@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  ="UILabel plus UIImageView in collection view to create nice list of tags"
 
-  spec.homepage     = "http://github.com/TagsView"
+  spec.homepage     = "https://github.com/abuzeid-ibrahim/TagsView"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
