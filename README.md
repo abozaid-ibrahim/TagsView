@@ -14,3 +14,13 @@ public class TagView {
     @IBInspectable
     public var borderColor: UIColor = .lightGray
     }
+
+
+
+# How To Use
+![alt text](https://github.com/abuzeid-ibrahim/TagsView/blob/master/TagsView/Resources/usage.png)
+
+
+
+# OUTPUT 
+![alt text](https://github.com/abuzeid-ibrahim/TagsView/blob/master/TagsView/Resources/output.png)
