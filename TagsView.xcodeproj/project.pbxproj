@@ -12,6 +12,9 @@
 		6C321DD222907ECA0013F236 /* TagCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C321DCE22907EC90013F236 /* TagCollectionCell.swift */; };
 		6C321DD322907ECA0013F236 /* TagCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C321DCF22907ECA0013F236 /* TagCollectionCell.xib */; };
 		6C321DD422907ECA0013F236 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C321DD022907ECA0013F236 /* TagView.swift */; };
+		6CF42C922290D02500B9BDE1 /* output.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF42C8F2290D02500B9BDE1 /* output.png */; };
+		6CF42C932290D02500B9BDE1 /* code.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF42C902290D02500B9BDE1 /* code.png */; };
+		6CF42C942290D02500B9BDE1 /* usage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6CF42C912290D02500B9BDE1 /* usage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		6C321DCE22907EC90013F236 /* TagCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagCollectionCell.swift; sourceTree = "<group>"; };
 		6C321DCF22907ECA0013F236 /* TagCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCollectionCell.xib; sourceTree = "<group>"; };
 		6C321DD022907ECA0013F236 /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		6CF42C8F2290D02500B9BDE1 /* output.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = output.png; sourceTree = "<group>"; };
+		6CF42C902290D02500B9BDE1 /* code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = code.png; sourceTree = "<group>"; };
+		6CF42C912290D02500B9BDE1 /* usage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = usage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		6C321DC422907EA50013F236 /* TagsView */ = {
 			isa = PBXGroup;
 			children = (
+				6CF42C8A2290CE0A00B9BDE1 /* Resources */,
 				6C321DCD22907EC90013F236 /* LeftAlignedCollectionViewFlowLayout.swift */,
 				6C321DCE22907EC90013F236 /* TagCollectionCell.swift */,
 				6C321DCF22907ECA0013F236 /* TagCollectionCell.xib */,
@@ -62,6 +69,16 @@
 				6C321DC622907EA50013F236 /* Info.plist */,
 			);
 			path = TagsView;
+			sourceTree = "<group>";
+		};
+		6CF42C8A2290CE0A00B9BDE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CF42C902290D02500B9BDE1 /* code.png */,
+				6CF42C8F2290D02500B9BDE1 /* output.png */,
+				6CF42C912290D02500B9BDE1 /* usage.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +150,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF42C922290D02500B9BDE1 /* output.png in Resources */,
+				6CF42C942290D02500B9BDE1 /* usage.png in Resources */,
 				6C321DD322907ECA0013F236 /* TagCollectionCell.xib in Resources */,
+				6CF42C932290D02500B9BDE1 /* code.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

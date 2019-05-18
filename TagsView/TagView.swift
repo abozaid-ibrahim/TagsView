@@ -117,10 +117,10 @@ extension TagView: UICollectionViewDelegateFlowLayout {
         let label = UILabel(frame: CGRect.zero)
         label.font = self.font
         label.text = self.items[indexPath.row].0
-        let iconWidth = self.items[indexPath.row].1 == nil ? 0 : CGFloat(25)
+        let iconWidth = self.items[indexPath.row].1 == nil ? 8 : CGFloat(25)
         label.sizeToFit()
         let size = label.frame.size
-        let padding = CGFloat(10)
+        let padding = CGFloat(12)
         return CGSize(width: size.width + iconWidth + padding, height: 30)
     }
 }
