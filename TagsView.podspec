@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint TagsLabelView.podspec' to ensure this is a
+#  Be sure to run `pod spec lint TagsView.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://docs.cocoapods.org/specification.html
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  ="UILabel plus UIImageView in collection view to create nice list of tags"
 
-  spec.homepage     = "http://github.com/TagsLabelView"
+  spec.homepage     = "http://github.com/TagsView"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://github.com/TagsLabelView.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "http://github.com/TagsView.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -104,6 +104,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
+spec.resources = "TagsView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
