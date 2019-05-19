@@ -42,11 +42,10 @@ public class TagView: UIView, TagsView {
 
     @IBInspectable
     public var inimumInteritemSpacing = 10
-    
+
     @IBInspectable
     public var minimumLineSpacing = 10
-    
-    
+
     private let layout: AlignedCollectionViewFlowLayout = {
         let layout = AlignedCollectionViewFlowLayout()
         layout.horizontalAlignment = .leading

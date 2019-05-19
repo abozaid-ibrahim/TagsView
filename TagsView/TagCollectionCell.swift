@@ -12,13 +12,14 @@ class TagCollectionCell: UICollectionViewCell {
     static let id = "TagCollectionCell"
     @IBOutlet private var iconView: UIImageView!
     @IBOutlet private var label: UILabel!
-    func setFont(_ font:UIFont,bgColor:UIColor ,txtColor:UIColor){
-        label.font  = font
-        backgroundColor  = bgColor
+    func setFont(_ font: UIFont, bgColor: UIColor, txtColor: UIColor) {
+        label.font = font
+        backgroundColor = bgColor
         layer.borderColor = UIColor.lightGray.cgColor
-label.textColor = txtColor
+        label.textColor = txtColor
     }
-    func setCellModel(model:TagDataModel) {
+
+    func setCellModel(model: TagDataModel) {
         label.text = model.0
         if let img = model.1 {
             iconView.image = img
