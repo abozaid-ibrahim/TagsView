@@ -62,8 +62,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+# spec.platform     = :ios
+#  spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -132,5 +132,6 @@ spec.resources = "TagsView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+    spec.swift_version = "5.0"
 
 end
