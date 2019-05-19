@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.name         = "TagsView"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "UILabel plus UIImageView in collection view to create nice list of tags"
 
   spec.description  ="UILabel plus UIImageView in collection view to create nice list of tags"
