@@ -60,15 +60,23 @@
 		6C321DC422907EA50013F236 /* TagsView */ = {
 			isa = PBXGroup;
 			children = (
+				6CEFC32B2295CA0B0037A38D /* Classes */,
 				6CF42C8A2290CE0A00B9BDE1 /* Resources */,
-				6C321DCD22907EC90013F236 /* LeftAlignedCollectionViewFlowLayout.swift */,
-				6C321DCE22907EC90013F236 /* TagCollectionCell.swift */,
-				6C321DCF22907ECA0013F236 /* TagCollectionCell.xib */,
-				6C321DD022907ECA0013F236 /* TagView.swift */,
 				6C321DC522907EA50013F236 /* TagsView.h */,
 				6C321DC622907EA50013F236 /* Info.plist */,
 			);
 			path = TagsView;
+			sourceTree = "<group>";
+		};
+		6CEFC32B2295CA0B0037A38D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6C321DCD22907EC90013F236 /* LeftAlignedCollectionViewFlowLayout.swift */,
+				6C321DCE22907EC90013F236 /* TagCollectionCell.swift */,
+				6C321DCF22907ECA0013F236 /* TagCollectionCell.xib */,
+				6C321DD022907ECA0013F236 /* TagView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		6CF42C8A2290CE0A00B9BDE1 /* Resources */ = {

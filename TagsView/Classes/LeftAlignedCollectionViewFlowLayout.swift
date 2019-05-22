@@ -5,36 +5,6 @@
 //  Created by abuzeid on 5/18/19.
 //  Copyright © 2019 abuzeid. All rights reserved.
 //
-
-import UIKit
-
-class LeftAlignedCollectionViewFlowLayout: UICollectionViewFlowLayout {
-    override func layoutAttributesForElements(in rect: CGRect) -> [UICollectionViewLayoutAttributes]? {
-        let attributes = super.layoutAttributesForElements(in: rect)
-        
-        var leftMargin = sectionInset.left
-        var maxY: CGFloat = -1.0
-        attributes?.forEach { layoutAttribute in
-            if layoutAttribute.representedElementCategory == .cell {
-                if layoutAttribute.frame.origin.y >= maxY {
-                    leftMargin = sectionInset.left
-                }
-                layoutAttribute.frame.origin.x = leftMargin
-                leftMargin += layoutAttribute.frame.width + minimumInteritemSpacing
-                maxY = max(layoutAttribute.frame.maxY, maxY)
-            }
-        }
-        return attributes
-    }
-}
-
-//
-//  AlignedCollectionViewFlowLayout.swift
-//
-//  Created by Mischa Hildebrand on 12/04/2017.
-//  Copyright © 2017 Mischa Hildebrand.
-//
-
 import UIKit
 protocol Alignment {}
 
@@ -129,6 +99,8 @@ open class AlignedCollectionViewFlowLayout: UICollectionViewFlowLayout {
             default:
                 break
             }
+        @unknown default:
+            print("TODO")
         }
         
         // It's safe to force-unwrap as `.leading` and `.trailing` are covered
